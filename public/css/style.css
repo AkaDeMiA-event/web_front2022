@@ -51,3 +51,35 @@
 .privacy-policy-link{
     color: #3cbf49;
 }
+
+#hover-test:hover{
+    transition: all 3.0s;
+    background-color: aqua;
+}
+.col-md-4:hover .akademia-logo{
+    width: 80%;
+    opacity: 100;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.col-md-4 .akademia-logo{
+    display: block;
+    width: 0%;
+    opacity: 0;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
+.col-md-4:hover .demia-logo{
+    width: 0%;
+    transition: opacity 0.3s;
+    display: none;
+}
