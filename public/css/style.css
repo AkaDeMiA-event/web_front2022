@@ -51,8 +51,8 @@
 .privacy-policy-link{
     color: #3cbf49;
 }
-
-#hover-test:hover{
+/* 複雑ホバー */
+/* #hover-test:hover{
     transition: all 3.0s;
     background-color: aqua;
 }
@@ -74,12 +74,27 @@
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
-}
+} */
 
 
 
 .col-md-4:hover .demia-logo{
     width: 0%;
     transition: opacity 0.3s;
+    display: none;
+}
+
+
+/* 単純hover */
+.col-md-4:hover .akademia-logo{
+   display: block;
+}
+.col-md-4 .akademia-logo{
+    display: none;
+}
+
+
+
+.col-md-4:hover .demia-logo{
     display: none;
 }
